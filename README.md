@@ -1,3 +1,10 @@
+
+> [!WARNING]
+> This software is unfinished.
+
+# TODO
+- [ ] Add json caching
+
 # Horoscope.py
 A simple Python application that provides daily horoscope information for different zodiac signs. This project consists of three main components: `api.py` for fetching horoscope data from an API, `gui.py` for a graphical user interface, and `main.py` to run the application from the command line.
 
@@ -42,11 +49,13 @@ python main.py -h
 
 
 # Project Structure
-api.py: Fetches horoscope data from the API and handles caching.
 
-gui.py: Provides a graphical user interface using the customtkinter library for selecting zodiac signs and displaying horoscope.
+`main.py`: The main entry point for the application, allowing users to run the app from the command line or GUI.
 
-main.py: The main entry point for the application, allowing users to run the app from the command line or GUI.
+`api.py`: Fetches horoscope data from the API and handles caching.
+
+`gui.py`: Provides a graphical user interface using the customtkinter library for selecting zodiac signs and displaying horoscope.
+
 
 # Dependencies
 
@@ -57,9 +66,6 @@ main.py: The main entry point for the application, allowing users to run the app
 [requests](https://requests.readthedocs.io/en/latest/): HTTP library for making API requests.
 
 [requests-cache](https://requests-cache.readthedocs.io/en/stable/): Caching library for storing API responses.
-
-# TODO
-- [ ] Add json caching
 
 # License
 
