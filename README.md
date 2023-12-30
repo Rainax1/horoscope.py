@@ -42,9 +42,9 @@ python main.py
 # To fetch a specific horoscope from the command line, use the following options:
 
 ```bash
-python main.py -s <zodiac_sign> -d <day>
-or
-python main.py -h
+python main.py -s <zodiac_sign> -d <day>           # day can be (Yesterday, Today, Tomorrow)
+ or
+python main.py -h                                  # show help message
 ```
 
 
