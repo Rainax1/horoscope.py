@@ -1,8 +1,8 @@
 # Horoscope.py
 A simple Python application that provides daily horoscope information for different zodiac signs. This project consists of three main components: `api.py` for fetching horoscope data from an API, `gui.py` for a graphical user interface, and `main.py` to run the application from the command line.
 
-Features
-Horoscope Fetching: `api.py` fetches horoscope data from The [Astrologer]() API using the specified zodiac sign and day (default is today).
+# Features
+Horoscope Fetching: `api.py` fetches horoscope data from The [Astrologer](http://sandipbgt.com/theastrologer/api/) API using the specified zodiac sign and day (default is today).
 
 Graphical User Interface (GUI): `gui.py` offers a user-friendly interface to select and view horoscopes for different zodiac signs.
 
