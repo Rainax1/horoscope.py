@@ -4,6 +4,7 @@
 
 # TODO
 - [ ] Add json caching
+- [ ] Complete GUI 
 
 # Horoscope.py
 A simple Python application that provides daily horoscope information for different zodiac signs. This project consists of three main components: `api.py` for fetching horoscope data from an API, `gui.py` for a graphical user interface, and `main.py` to run the application from the command line.
@@ -43,7 +44,7 @@ python main.py
 
 ```bash
 python main.py -s <zodiac_sign> -d <day>           # day can be (Yesterday, Today, Tomorrow)
- or
+python main.py -s <zodiac_sign> -d <day>  -c       # -c or --color for colored output
 python main.py -h                                  # show help message
 ```
 
@@ -66,6 +67,8 @@ python main.py -h                                  # show help message
 [requests](https://requests.readthedocs.io/en/latest/): HTTP library for making API requests.
 
 [requests-cache](https://requests-cache.readthedocs.io/en/stable/): Caching library for storing API responses.
+
+[colorama](): For colors
 
 # License
 
